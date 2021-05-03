@@ -17,7 +17,7 @@ export const Detalhes = () => {
     const params = useParams();
     return (
 
-        <div>
+        <div className="propriedadesDetalhes">
 
             <div className="Navmenu">
                 <p onClick={handleClick}>Imóveis <i className="seta-direita"></i> </p>
