@@ -20,8 +20,8 @@ export const Detalhes = () => {
         <div>
 
             <div className="Navmenu">
-                <a href="/#" onClick={handleClick}>Imóveis <i className="seta-direita"></i> </a>
-                <a href="/#">{imoveis[params.id].Nameimovel} </a>
+                <p onClick={handleClick}>Imóveis <i className="seta-direita"></i> </p>
+                <p href="/#">{imoveis[params.id].Nameimovel} </p>
             </div>
 
             <div className="center">
