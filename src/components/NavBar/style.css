@@ -1,0 +1,38 @@
+ .menu nav {
+  
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(21, 26, 37, 1);
+  align-items: center;
+}
+
+.menu  nav div:first-child {
+  flex-grow: 0;
+  background-color:rgb(129, 129, 129)
+}
+
+.menu  nav div:last-child {
+  flex-grow: 1;
+}
+
+.menu ul {
+   margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+
+}
+.menu li{
+    list-style: none;
+    padding-right: 30px;
+}
+.menu a {
+    font-weight: 600;
+    
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover{
+    color: #F32641 ;
+}

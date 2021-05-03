@@ -1,0 +1,77 @@
+.card {
+    width:28rem;
+border: none;
+margin-bottom: 10%;
+font-weight: 500;
+background-color: transparent;
+}
+.card-img-top {
+    border-top-left-radius: calc(1.50rem - 1px);
+    border-top-right-radius: calc(1.50rem - 1px);
+    border-bottom-left-radius: calc(1.50rem - 1px);
+    border-bottom-right-radius: calc(1.50rem - 1px);
+}
+
+.center{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+ 
+}
+.card-imoveis-container{
+    width: 87%;
+    height: 100%;
+    
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    /* background: red; */
+
+
+}
+.list-group-item span{
+    
+float: right;
+}
+.list-group-item:last-child span{ 
+    color: green;
+float: right;
+}
+.list-group-item
+{
+    float: left;
+    text-align: left;
+    background-color: transparent;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a{
+    color: black;
+  }
+  a:hover{
+      color: black;
+  }
+  
+  img{
+      width: 100px;
+      height: 200px;
+  }
+  .card-title{
+      text-align: left;
+     font-weight: 600;
+      
+  }
+  .card-text{
+      color: rgb(110, 110, 110);
+      text-align: left;
+      white-space: nowrap;                  
+overflow: hidden; 
+      text-overflow: ellipsis;
+      font-weight: 500;
+  }
