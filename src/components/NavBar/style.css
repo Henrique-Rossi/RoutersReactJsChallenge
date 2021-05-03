@@ -36,3 +36,8 @@
 .menu a:hover{
     color: #F32641 ;
 }
+@media (max-width:700px) {
+  .menu nav{
+      display: none;
+  }
+}

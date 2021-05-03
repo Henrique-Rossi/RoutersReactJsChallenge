@@ -1,11 +1,11 @@
 import React from "react";
 import { imoveis } from '../../Api/api-info-card';
-import {  Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Order } from "../../components/Order/Order";
 import './style.css'
 
 import {
- Link,
+  Link,
 } from "react-router-dom";
 
 
@@ -24,9 +24,9 @@ export const Imovel = () => {
             const total = parseInt(data.Cleaningfee) + parseInt(data.Caucao);
             return (
 
-             
-                <div key={key}>
- <Link to={`/Propriedades/Detalhes/${data.id}`}  >
+
+              <div key={key}>
+                <Link to={`/Propriedades/Detalhes/${data.id}`}  >
                   <Card>
                     <Card.Img variant="top" src={data.image} />
                     <Card.Body>
@@ -44,8 +44,8 @@ export const Imovel = () => {
                     </ListGroup>
 
                   </Card></Link>
-                </div>
-              
+              </div>
+
 
 
             );

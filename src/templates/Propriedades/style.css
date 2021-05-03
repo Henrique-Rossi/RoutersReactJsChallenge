@@ -16,9 +16,10 @@ background-color: transparent;
     position: relative;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  
+ 
  
 }
 .card-imoveis-container{
@@ -59,7 +60,7 @@ a:link {
   }
   
   img{
-      width: 100px;
+      width: 10% im !important;
       height: 200px;
   }
   .card-title{
@@ -74,4 +75,18 @@ a:link {
 overflow: hidden; 
       text-overflow: ellipsis;
       font-weight: 500;
+  }
+
+  @media (max-width:700px) {
+    .center{
+     
+        width: 0%;
+    
+     
+    }
+    .card-imoveis-container{
+        width: 100%;
+       
+    
+    }
   }

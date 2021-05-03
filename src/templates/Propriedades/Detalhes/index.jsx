@@ -24,10 +24,10 @@ export const Detalhes = () => {
                 <p href="/#">{imoveis[params.id].Nameimovel} </p>
             </div>
 
-            <div className="center">
+            <div className="centerz">
                 <div className="FlexContainer">
                     <div className="FlexContainer-img">
-                        <img src={imoveis[params.id].image} alt={imoveis[params.id].image}/>
+                        <img src={imoveis[params.id].image} alt={imoveis[params.id].image} />
                         <h5>Localização</h5>
                         <h6>{imoveis[params.id].Fulladdress}</h6>
                     </div>
@@ -35,9 +35,9 @@ export const Detalhes = () => {
                         <h4>{imoveis[params.id].Nameimovel}</h4>
                         <h6>{imoveis[params.id].Description} <span>{imoveis[params.id].Status}</span></h6>
 
-                       
 
-                        
+
+
                         <div className="FlexContainer-Cards">
                             <div className="card">
                                 <div className="card-body">

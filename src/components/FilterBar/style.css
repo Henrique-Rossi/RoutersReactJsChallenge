@@ -34,3 +34,8 @@ color: red;
     border-color: rgba(177, 175, 175, 0.548);
     box-shadow: 1px 1px 1px rgb(180, 180, 180);
 }
+@media (max-width:700px) {
+    .filterbar{
+        display: none;
+    }
+}
