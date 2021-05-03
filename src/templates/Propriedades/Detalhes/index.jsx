@@ -15,23 +15,12 @@ export const Detalhes = () => {
 
 
     const params = useParams();
-
-    // var obj = imoveis[params.id];
-    // for (key in obj) {
-    //     obj[key].forEach(function (item) {
-    //         for (key in item) {
-    //             console.log("Chave: " + key + " - Valor: " + item[key]);
-    //         }
-    //     });
-    // }
-
-
     return (
 
         <div>
 
             <div className="Navmenu">
-                <a href="" onClick={handleClick}>Imóveis <i class="seta-direita"></i> </a>
+                <a href="" onClick={handleClick}>Imóveis <i className="seta-direita"></i> </a>
                 <a >{imoveis[params.id].Nameimovel} </a>
             </div>
 
@@ -50,20 +39,20 @@ export const Detalhes = () => {
 
                         
                         <div className="FlexContainer-Cards">
-                            <div class="card">
-                                <div class="card-body">
+                            <div className="card">
+                                <div className="card-body">
                                     <h5>Max. de Hóspedes </h5>
                                     {imoveis[params.id].guests}
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-body">
+                            <div className="card">
+                                <div className="card-body">
                                     <h5>Taxa de Limpeza </h5>
                                     {imoveis[params.id].Cleaningfee}
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-body">
+                            <div className="card">
+                                <div className="card-body">
                                     <h5>Caução </h5>
                                     {imoveis[params.id].Caucao}
                                 </div>
