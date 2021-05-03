@@ -7,6 +7,10 @@ Participante: Henrique Rossi Vilela <br />
 
 ## Desenvolvimento
 ### `Organização`
+## API
+![image](https://user-images.githubusercontent.com/62766483/116944135-42e8a680-ac4b-11eb-807e-112cb93ddaee.png)
+- Requisição da api interna ,desenvolvida por mim
+-
 ## Index/Routers <br />
 
 ![image](https://user-images.githubusercontent.com/62766483/116942925-e84e4b00-ac48-11eb-8675-828749a66b54.png)<br />
