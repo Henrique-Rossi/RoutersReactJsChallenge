@@ -28,9 +28,9 @@ export const Imovel = () => {
             const total = parseInt(data.Cleaningfee) + parseInt(data.Caucao);
             return (
 
-              <Link to={`/Propriedades/Detalhes/${data.id}`}  >
+             
                 <div key={key}>
-
+ <Link to={`/Propriedades/Detalhes/${data.id}`}  >
                   <Card>
                     <Card.Img variant="top" src={data.image} />
                     <Card.Body>
@@ -47,9 +47,9 @@ export const Imovel = () => {
                       <ListGroupItem>   Total:<span>{total}</span></ListGroupItem>
                     </ListGroup>
 
-                  </Card>
+                  </Card></Link>
                 </div>
-              </Link>
+              
 
 
             );

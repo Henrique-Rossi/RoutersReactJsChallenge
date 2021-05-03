@@ -1,16 +1,16 @@
 
 import './App.css';
-import {Rotas} from '../../Rotas'
+import { Rotas } from '../../Rotas'
 
 
-export   function App() {
-  
+export function App() {
+
 
   return (
     <div className="App">
 
- <Rotas/>
-  
+      <Rotas />
+
     </div>
   );
 }
