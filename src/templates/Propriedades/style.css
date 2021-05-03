@@ -60,7 +60,7 @@ a:link {
   }
   
   img{
-      width: 10% im !important;
+      width: 100% !important;
       height: 200px;
   }
   .card-title{
@@ -85,8 +85,15 @@ overflow: hidden;
      
     }
     .card-imoveis-container{
-        width: 100%;
-       
+        width: 87%;
     
+    
+    }
+    .card {
+        width: 27rem;
+        border: none;
+        margin-bottom: 20%;
+        font-weight: 500;
+        background-color: transparent;
     }
   }

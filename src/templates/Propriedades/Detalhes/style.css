@@ -130,8 +130,9 @@ h6 {
     }
 
     .FlexContainer-img {
-      width: 100%;
+        width: 100%;
     }
+
     .FlexContainer-info {
         width: 100%;
     }
@@ -140,30 +141,27 @@ h6 {
         font-size: 5vw;
     }
 
-    .centerz {
-        width: 100%;
+
+
+    .FlexContainer-Cards {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 2px solid rgb(224, 224, 224);
+        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
 
-    
-.FlexContainer-Cards {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 2px solid rgb(224, 224, 224);
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.FlexContainer-Cards .card {
-    width: 13rem;
-    border: none;
-    margin-bottom: 10%;
-    font-weight: 500;
-    margin: 3% 3% 3% 0;
-    background-color: #fff;
-    border-color: rgba(177, 175, 175, 0.548);
-    box-shadow: 1px 1px 1px rgb(180, 180, 180);
-    border-radius: calc(1.2rem - 1px);
-}
+    .FlexContainer-Cards .card {
+        width: 13rem;
+        border: none;
+        margin-bottom: 10%;
+        font-weight: 500;
+        margin: 3% 3% 3% 0;
+        background-color: #fff;
+        border-color: rgba(177, 175, 175, 0.548);
+        box-shadow: 1px 1px 1px rgb(180, 180, 180);
+        border-radius: calc(1.2rem - 1px);
+    }
 
 }
