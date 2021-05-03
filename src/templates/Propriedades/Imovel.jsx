@@ -1,15 +1,11 @@
 import React from "react";
 import { imoveis } from '../../Api/api-info-card';
-import { Button, Card, Img, ListGroup, ListGroupItem } from 'react-bootstrap';
+import {  Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Order } from "../../components/Order/Order";
 import './style.css'
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams
+ Link,
 } from "react-router-dom";
 
 

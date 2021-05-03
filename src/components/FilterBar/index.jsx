@@ -27,12 +27,7 @@ export const FilterBar = () => {
                 </div>
                 <div className="Check-in">
                     <h5>Check-in</h5>
-                    {/* <DropdownButton id="dropdown-item-button" title="Boa Esperança">
-                        
-                        <Dropdown.Item as="button">Belo Horizonte</Dropdown.Item>
-                        <Dropdown.Item as="button">Varginha</Dropdown.Item>
-                        <Dropdown.Item as="button">Três Corações</Dropdown.Item>
-                    </DropdownButton> */}
+                    
                     <input type="numeric"></input>
 
                 </div>
@@ -62,7 +57,7 @@ export const FilterBar = () => {
                 <Button variant="danger">Busca</Button>
                 </div>
                 <div className="filtersplus">
-                    <a><h6>+ mais filtros</h6></a>
+                    <a href="/#"><h6>+ mais filtros</h6></a>
                 </div>
             </div>
 

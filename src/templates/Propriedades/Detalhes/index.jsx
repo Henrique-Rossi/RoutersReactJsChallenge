@@ -1,7 +1,7 @@
 
 import { useHistory, useParams } from "react-router-dom";
 import { imoveis } from '../../../Api/api-info-card';
-import { FilterBar } from "../../../components/FilterBar";
+
 import './style.css'
 
 
@@ -20,14 +20,14 @@ export const Detalhes = () => {
         <div>
 
             <div className="Navmenu">
-                <a href="" onClick={handleClick}>Imóveis <i className="seta-direita"></i> </a>
-                <a >{imoveis[params.id].Nameimovel} </a>
+                <a href="/#" onClick={handleClick}>Imóveis <i className="seta-direita"></i> </a>
+                <a href="/#">{imoveis[params.id].Nameimovel} </a>
             </div>
 
             <div className="center">
                 <div className="FlexContainer">
                     <div className="FlexContainer-img">
-                        <img src={imoveis[params.id].image} />
+                        <img src={imoveis[params.id].image} alt={imoveis[params.id].image}/>
                         <h5>Localização</h5>
                         <h6>{imoveis[params.id].Fulladdress}</h6>
                     </div>
