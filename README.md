@@ -1,7 +1,7 @@
 # Apresentação
 
 Participante: Henrique Rossi Vilela <br />
-- GitHub: https://github.com/Henrique-Rossi/SeazoneCodeChallenge <br />
+- Linkdedin: https://www.linkedin.com/in/henrique-rossi-4171b11a2/ <br />
 - Deploy: sleepy-bartik-c4e8c1.netlify.app<br />
 
 
