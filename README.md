@@ -27,7 +27,7 @@ Participante: Henrique Rossi Vilela <br />
 
 ### `Scripts`
 - Rotas : https://reactrouter.com/
-
+- React Hooks
 ### `Estilização`
 
 - BootStrap:  https://react-bootstrap.github.io/<br />
