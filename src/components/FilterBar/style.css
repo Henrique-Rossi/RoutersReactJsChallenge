@@ -17,7 +17,7 @@
     margin-left: -80%;
     margin-top: 30%;
 display: block;
-color: red;
+color: #E63B39;
 
 }
 .center-filter{
@@ -33,6 +33,10 @@ color: red;
     background-color: #fff;
     border-color: rgba(177, 175, 175, 0.548);
     box-shadow: 1px 1px 1px rgb(180, 180, 180);
+  
+}
+.busca .btn-primary {
+    background: #E96027;
 }
 @media (max-width:700px) {
     .filterbar{
