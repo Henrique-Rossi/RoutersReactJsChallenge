@@ -22,7 +22,7 @@ Participante: Henrique Rossi Vilela <br />
 
 ## Templates 
 ![image](https://user-images.githubusercontent.com/62766483/116942750-93aad000-ac48-11eb-82db-e009b7f6e410.png) <br />
-- Classifiquei os templates do projeto,no qual  cada pasta seria consederado uma pagina do sistema e seus devidos componentes unicos.
+- Classifiquei os templates do projeto,no qual  cada pasta seria considerado uma pagina do sistema e seus devidos componentes unicos.
 - * Page404 foi desenvolvida para simular  paginas não criadas,no caso,as mesmas que foram requisitadas para serem em brancos.
 
 ### `Scripts`
