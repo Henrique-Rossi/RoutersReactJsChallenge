@@ -13,7 +13,7 @@ export const FilterBar = () => {
             <div className="filterbar">
                 <div className="localizacao">
                     <h5>Localização</h5>
-                    <DropdownButton id="dropdown-item-button" title="Boa Esperança">
+                    <DropdownButton id="dropdown-item-button" title="Lista de Cidades">
                         <Dropdown.ItemText>Lista de Cidades </Dropdown.ItemText>
                         <Dropdown.Item as="button">Belo Horizonte</Dropdown.Item>
                         <Dropdown.Item as="button">Varginha</Dropdown.Item>
@@ -22,7 +22,7 @@ export const FilterBar = () => {
                 </div>
                 <div className="preco">
                     <h5>Preço</h5>
-                    <DropdownButton id="dropdown-item-button" title="300-10000">
+                    <DropdownButton id="dropdown-item-button" title="Lista de Preço">
                         
                         <Dropdown.Item as="button">1</Dropdown.Item>
                         <Dropdown.Item as="button">1</Dropdown.Item>
