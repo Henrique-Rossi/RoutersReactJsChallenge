@@ -1,7 +1,7 @@
 # Apresentação
 
-Participante: Henrique Rossi Vilela <br />
-- Linkdedin: https://www.linkedin.com/in/henrique-rossi-4171b11a2/ <br />
+
+- Deploy da app: https://app.netlify.com/sites/sleepy-bartik-c4e8c1 <br />
 
 
 
