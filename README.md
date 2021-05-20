@@ -1,7 +1,7 @@
 # Apresentação
 
 
-- Deploy da app: https://app.netlify.com/sites/sleepy-bartik-c4e8c1 <br />
+- Deploy da app: https://sleepy-bartik-c4e8c1.netlify.app/<br />
 
 
 
